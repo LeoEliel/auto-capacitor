@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+        <title>Auto Capacitor</title>
+    </head>
+
+    <body>
+
+        <section>
+            <form action="" id="mainForm" class="form-container">
+                
+                <h1>Auto Capacitor</h1>
+
+                <!-- <label for="shelfDeepness">Profundidade da prateleira:</label> -->
+                <input type="number" id="shelfDeepness" placeholder="Profundidade da prateleira (cm)" class="form-item" min="1" step="0.1">
+                
+                <!-- <label for="productMeasure">Medida do Produto:</label> -->
+                <input type="number" name="productMeasure" id="productMeasure" placeholder="Medida do produto (cm)" class="form-item" min="1" step="0.1">
+                
+                <!-- <label for="qtdRows">Nº de Frentes:</label> -->
+                <input type="number" name="qtdRows" id="qtdRows" placeholder="Numero de frentes" class="form-item" min="0">
+                
+                <!-- <label for="unitsPerPack">Unidades por Caixa:</label> -->
+                <input type="number" name="unitsPerPack" id="unitsPerPack" placeholder="Unidades por caixa, fardo, whatever" class="form-item" min="1">
+                
+                <button type="submit" id="send" class="form-item">Calcule esta bagaça!</button>
+            </form>
+        </section>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
