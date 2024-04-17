@@ -9,18 +9,14 @@ body {
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-=======
-    align-items: center;
->>>>>>> c383171abe48dff8c610e588427042932ca0996d
 }
 
 .form-item {
     width: fit-content;
-    /* margin: 10px; */
-    padding: 20px;
+    margin: 5px;
+    padding: 10px;
     border-radius: 5px;
     border: 2px solid #172432;
     font-size: large;
@@ -32,12 +28,7 @@ body {
     background-color: #172432;
     border: none;
     color: #ddd;
-    padding: 20px 40px;
+    padding: 15px;
     border-radius: 5px;
-    font-size: x-large;
-<<<<<<< HEAD
-    
+    font-size: large;   
 }
-=======
-}
->>>>>>> c383171abe48dff8c610e588427042932ca0996d
