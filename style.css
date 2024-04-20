@@ -5,7 +5,7 @@ body {
 }
 
 .form-container {
-    height: 95vh;
+    height: 89vh;
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
@@ -20,6 +20,13 @@ body {
     border-radius: 5px;
     border: 2px solid #172432;
     font-size: large;
+}
+
+.footer-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
 }
 
 #send {

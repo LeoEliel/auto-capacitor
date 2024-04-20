@@ -18,7 +18,7 @@
                 <!-- <label for="shelfDeepness">Profundidade da prateleira:</label> -->
                 <input type="number" id="shelfDeepness" placeholder="Profundidade da prateleira (cm)" class="form-item" min="1" step="0.1">
                 
-                <label for="productMeasure">Medida do Produto:</label>
+                <!-- <label for="productMeasure">Medida do Produto:</label> -->
                 <input type="number" name="productMeasure" id="productMeasure" placeholder="Medida do produto (cm)" class="form-item" min="1" step="0.1">
                 
                 <!-- <label for="qtdRows">Nº de Frentes:</label> -->
@@ -29,8 +29,16 @@
                 
                 <button type="submit" id="send" class="form-item">Calcule esta bagaça!</button>
                 <!-- <button type="reset" id="reset" class="form-item">Resetar</button> -->
+                
+                <label for="result">Resultado: </label>
+                <span name="result "id="result" class="result">Não calculado</span>
             </form>
         </section>
+       
+        <footer class="footer-container">    
+            <span>Feito por Leonardo Eliel para uso exclusivo na Brasil Super Atacado.</span>
+            <span>20/04/2024</span>
+        </footer>
         <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
