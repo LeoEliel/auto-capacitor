@@ -2,6 +2,7 @@ body {
     width: 100vw;
     background-color: #ddd;
     font-family: sans-serif;
+    font-size: smaller;
 }
 
 .form-container {
@@ -14,12 +15,12 @@ body {
 }
 
 .form-item {
-    width: fit-content;
+    min-width: fit-content;
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
     border: 2px solid #172432;
-    font-size: large;
+
 }
 
 .footer-container {
@@ -36,6 +37,5 @@ body {
     border: none;
     color: #ddd;
     padding: 15px;
-    border-radius: 5px;
-    font-size: large;   
+    border-radius: 5px;   
 }
